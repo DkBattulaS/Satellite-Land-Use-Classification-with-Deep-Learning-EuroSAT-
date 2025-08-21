@@ -1,12 +1,11 @@
-# Satellite-Land-Use-Classification-with-Deep-Learning-EuroSAT-
-# 🌍 Land Use Classification with Satellite Imagery (EuroSAT + ResNet18)
+# Satellite-Land-Use-Classification-with-Deep-Learning-EuroSAT+ ResNet18-
 
 This project demonstrates how **satellite imagery** can be leveraged for **land use / land cover classification** using deep learning.  
 We apply **transfer learning with ResNet18** on the [EuroSAT dataset](https://github.com/phelber/EuroSAT), which contains Sentinel-2 satellite images across **10 classes**.
 
 ---
 
-## 🚀 Project Overview
+🚀 Project Overview
 - **Goal:** Classify satellite images into land use categories such as Residential, River, Sea/Lake, Forest, etc.  
 - **Approach:** Transfer learning with ResNet18 pre-trained on ImageNet.  
 - **Dataset:** EuroSAT (RGB, 27,000+ labeled images, 10 classes).  
@@ -51,18 +50,17 @@ Each class has **~2,000–3,000 images** of size **64x64 pixels**.
 
 ## 📊 Results
 
-### Sample Dataset
-![Dataset Samples](images/dataset_samples.png)
+##Sample Dataset
+dataset_samples.png
 
-### NDVI Example
-![NDVI](images/ndvi_example.png)
+## NDVI Example
+ndvi_example.png
 
-### Training Curves
-![Training Curves](images/training_curves.png)
+## Training Curves
+training_curves.png
 
 ### Prediction Results
-![Predictions](images/predictions.png)
-
+Ppredictions.png
 
 
 📈 Final Accuracy: **93.24% (Validation)**
@@ -74,12 +72,6 @@ Each class has **~2,000–3,000 images** of size **64x64 pixels**.
 - Even with a few epochs, we can achieve **state-of-the-art performance on small datasets**.  
 - Such models can be extended to real-world **agriculture monitoring, land cover mapping, and environmental planning**.  
 
----
-
-## 🔮 Future Work
-- Extend to **multi-modal fusion** (e.g., combine optical + SAR data).  
-- Train with **larger CNN/Transformer models** (ResNet50, ViT, Swin).  
-- Deploy as a **real-time inference API** for geospatial applications.  
 
 ---
 
@@ -91,7 +83,7 @@ Each class has **~2,000–3,000 images** of size **64x64 pixels**.
 ---
 
 ## 👨‍💻 Author
-- **Your Name** (Data Science Intern aspirant @ SatSure role)  
-- [LinkedIn](#) | [GitHub](#)  
+- **Deepak Battula**
+
 
 ---
