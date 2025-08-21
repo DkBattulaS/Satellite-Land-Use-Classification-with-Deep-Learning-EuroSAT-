@@ -77,7 +77,6 @@ Ppredictions.png
 
 ## 📜 References
 - [EuroSAT Dataset](https://github.com/phelber/EuroSAT)  
-- [ResNet Paper](https://arxiv.org/abs/1512.03385)  
 - [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)  
 
 ---
